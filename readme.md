@@ -2,6 +2,7 @@
 web3.js 是一个通过[RPC 调用](https://github.com/ethereum/wiki/wiki/JSON-RPC) 和本地以太坊节点进行通信的js库。web3.js可以与任何暴露了RPC接口的以太坊节点连接。
 web3中提供了eth对象 - web3.eth来与以太坊区块链进行交互。
 
+[在github上获得代码](https://github.com/cooleye/web3tutorial)
 ## 安装和和获取web3对象
 安装
 npm: `npm install web3`
@@ -304,3 +305,6 @@ web3.utils.sha3(0xea); // same as above, just the HEX representation of the numb
 web3.utils.sha3('0xea'); // will be converted to a byte array first, and then hashed
 > "0x2f20677459120677484f7104c76deb6846a2c071f9b3152c103bb12cd54d1a4a"
 ```
+
+
+[在github上获得代码](https://github.com/cooleye/web3tutorial)
